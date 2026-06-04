@@ -11,6 +11,11 @@
 
 <br />
 
+![Image](https://github.com/JeralSandeeptha/netwokring-for-engineers/blob/main/images/osi_sender.png?raw=true)
+![Image](https://github.com/JeralSandeeptha/netwokring-for-engineers/blob/main/images/osi_receiver.png?raw=true)
+
+<br />
+
 ## Memorization Way
 
 ```bash
@@ -91,3 +96,4 @@ Here is how the 7 layers execute sequentially when you type `https://example.com
 ## Modern Way
 
 - [TCP/IP Model](./tcp_ip.md)
+- [This is how host to host communication works](./host_to_host.md)
