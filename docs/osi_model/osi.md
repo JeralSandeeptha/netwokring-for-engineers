@@ -9,7 +9,15 @@
 
 ![GIF](https://media.geeksforgeeks.org/wp-content/uploads/20241111182857579134/OSI-Model.gif)
 
+![Image](https://res.cloudinary.com/djgwvmcdl/image/upload/v1781278815/29bed629-9f30-4f5e-b4b9-8737dc35999c.png)
+
 <br />
+
+## Layers
+
+![Image](https://res.cloudinary.com/djgwvmcdl/image/upload/v1781286181/d6a1dcbf-2ce7-4401-92a5-18025f37b5c1.png)
+
+<br/>
 
 ![Image](https://github.com/JeralSandeeptha/netwokring-for-engineers/blob/main/images/osi_sender.png?raw=true)
 ![Image](https://github.com/JeralSandeeptha/netwokring-for-engineers/blob/main/images/osi_receiver.png?raw=true)
@@ -35,6 +43,26 @@ All People Seems To Need Data Processing
 | **Session Layer**      | Establishes, manages, and terminates communication sessions between applications.       | Data                             | RPC                           |
 | **Presentation Layer** | Translates, encrypts, and formats data for the application layer.                       | Data                             | TLS/SSL, MIME                 |
 | **Application Layer**  | Provides network services directly to end-user applications.                            | Data                             | FTP, SMTP, DNS, DHCP, NetBIOS |
+
+<br />
+
+## How to access these layers in real world
+
+### 1. Browser Inspect (Layers 5, 6, and 7)
+
+The browser's Developer Tools (Network Tab) sit inside the application itself. It only cares about the final data payload.
+
+- **Application Layer (L7)**: You see HTTP methods (GET, POST), URLs, API requests, and cookies.
+- **Presentation Layer (L6)**: The browser automatically decrypts SSL/TLS for you so you can read JSON, XML, HTML, and images in plain text.
+- **Session Layer (L5)**: You see HTTP authentication, active cookies, and individual WebSocket or Server-Sent Events streams.
+
+### 2. Wireshark (Layers 2, 3, and 4)
+
+Wireshark captures raw packets straight off your network card before the operating system or browser processes them. It shows you the physical reality of the wire.
+
+- **Transport Layer (L4)**: This is where you see TCP sequence numbers, SYN/ACK handshakes, UDP ports, and packet retransmissions.
+- **Network Layer (L3)**: You see IPv4/IPv6 source and destination addresses, TTL (Time to Live), and routing protocols.
+- **Data Link Layer (L2)**: You see MAC addresses, Ethernet frames, and VLAN tags.
 
 <br />
 
