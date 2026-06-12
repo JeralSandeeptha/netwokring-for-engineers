@@ -2,6 +2,8 @@
 
 The internet is explicitly built on the `TCP/IP` model. The differences between the two frameworks map directly out like this
 
+![Image](https://res.cloudinary.com/djgwvmcdl/image/upload/v1781286713/375143c3-0cd2-44dd-9525-f326768a3b82.png)
+
 ```bash
 As conceptually OSI model is the standard way but in real world / practically these are working related to TCP/IP model
 ```
