@@ -3,6 +3,9 @@
 `UDP` stands for `User Datagram Protocol`
 
 - Stateless
+- No session
+- Layer 4 / Transport Layer Protocol
+- Ability to address process using ports
 - Connectionless
 - No handshake
 - No congession control
@@ -11,6 +14,12 @@
 - Less security
 - Low bandwidth
 - Low latency
+
+The naming breaks down into two core concepts:
+
+**User**: Unlike some protocols that operate purely for system or network administration, UDP is designed specifically to interface directly with the user's applications (like a web browser or video game). It passes messages directly to and from applications via port numbers.
+
+**Datagram**: This is a combination of the words "data" and "telegram". In networking, a datagram is a completely independent, self-contained data packet. Like a physical telegram, a UDP datagram contains all the necessary routing and destination information within itself. The sender just pushes the datagram out into the network and assumes it will reach the destination without establishing a prior connection (handshake) to verify the path.
 
 <br/>
 
