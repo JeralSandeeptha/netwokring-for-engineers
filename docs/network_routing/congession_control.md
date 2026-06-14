@@ -1,5 +1,7 @@
 # Congession Control
 
+This is exactly day to day life `Netwrok Traffic`
+
 In between those two devices, there can be more devices in that network. So with `Flow Control` we can only find `Sender` and `Receiver` window sizes. How about the others between them? For that we use this.
 
 ![Image](https://res.cloudinary.com/djgwvmcdl/image/upload/v1781392766/281d0be5-6a48-41eb-a209-c2bb0c61aff3.png)
