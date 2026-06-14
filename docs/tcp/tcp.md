@@ -56,6 +56,18 @@ In TCP usage, everything depends on a conenction
 
 <br/>
 
+## Flow Control
+
+In TCP has a methods to send segements accurately between devices. This is called as [Flow Control](../network_routing/flow_control.md)
+
+<br/>
+
+## Congession Control
+
+In between those two devices, there can be more devices in that network. So with `Flow Control` we can only find `Sender` and `Receiver` window sizes. How about the others between them? For that we use [Congession Control](../network_routing/congession_control.md)
+
+<br/>
+
 ## Use Cases
 
 - Reliable Communication
