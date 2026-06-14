@@ -68,6 +68,12 @@ In between those two devices, there can be more devices in that network. So with
 
 <br/>
 
+## TCP Fast Open
+
+[READ MORE](./tcp_fast_open.md)
+
+<br/>
+
 ## Use Cases
 
 - Reliable Communication
@@ -98,3 +104,23 @@ In between those two devices, there can be more devices in that network. So with
     ○ Both Stream 1 and Stream 2 packets must arrive
 ● TCP Meltdown
     ○ Not a good candidate for VPN
+
+---
+
+## Example
+
+```js
+import net from 'net';
+
+const server = net.createServer( socket => {
+    
+    console.log("TCP handshake successful with " + socket.remoteAddress + ":" + socket.remotePort);
+    socket.write("Hello client!");
+    socket.on("data", data=> {
+        
+        console.log("Received data " + data.toString())
+        
+    })
+    
+})
+```
