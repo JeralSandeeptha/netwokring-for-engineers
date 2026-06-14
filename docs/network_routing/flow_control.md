@@ -26,7 +26,7 @@ So in every acknowledgement, it is updating the window size number which they ca
 
 ![](https://res.cloudinary.com/djgwvmcdl/image/upload/v1781390845/5d455f13-f072-428a-8026-5a7793e4221c.png)
 
-This is more likely controlling by `RECEIVER` with updating `Window Size`
+This is more likely controlling by `RECEIVER` with updating `Window Size` 
 
 but
 
@@ -47,3 +47,9 @@ How it looks in the Three-Way Handshake:
 - `Packet 3 (ACK)`: Connection is ready. Both sides now know exactly how much data they can safely send
 
 [READ MORE ABOUT WINDOW SCALING](http://networklessons.com/network-fundamentals/tcp-window-size-scaling)
+
+This window holds all the unacknowledge segements while buffer holds the memory that process segements
+
+[WATCH FOR MORE](https://www.youtube.com/watch?v=GFD_0-SeCxs)
+
+![Image](https://res.cloudinary.com/djgwvmcdl/image/upload/v1781396633/77c07543-0159-4f9d-a39d-5c7d291038a7.png)
