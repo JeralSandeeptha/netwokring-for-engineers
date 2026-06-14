@@ -36,3 +36,11 @@ TCP splits data using the Maximum Segment Size (MSS), which is `1,460 bytes`.
 **2. If sending via UDP (Custom fast-streaming sockets)**
 
 UDP allows a maximum payload of `1,472 bytes` per packet before hitting the 1500-byte MTU barrier.
+
+![Image](../../images/mss_and_mtu.png)
+
+---
+
+But in the network can have multiple devices and those can have different MTUs. So how can we find the lowest MTU in that path.
+
+![Image](../../images/path_mtu.png)
