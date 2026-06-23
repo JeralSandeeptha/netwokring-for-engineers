@@ -1,6 +1,6 @@
 # Protocols
 
-Network protocols are rules that govern how devices communicate and share data.
+Network protocols are set of rules that govern how devices communicate and share data.
 
 They are categorized into three primary functions
 
