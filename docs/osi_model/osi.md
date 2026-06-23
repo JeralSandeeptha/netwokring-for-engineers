@@ -13,6 +13,11 @@
 
 <br />
 
+![Image](../../images/osi-map.png)
+Transport layer makes the conenction between software layers and hardware layers
+
+<br />
+
 ## Layers
 
 ![Image](https://res.cloudinary.com/djgwvmcdl/image/upload/v1781286181/d6a1dcbf-2ce7-4401-92a5-18025f37b5c1.png)
@@ -102,6 +107,12 @@ Layer 2: [L2 Header] + [L3 Data] + [L2 Trailer]   Layer 2: L3 Data (Header/Trail
       v                                                  |
 Layer 1: 0110100101101011 (Raw Bits) ------------> Layer 1: 0110100101101011 (Raw Bits)
 ```
+
+<br />
+
+![Image](../../images/ois-1.png)
+
+![Image](../../images/osi-data-model.png)
 
 <br />
 
