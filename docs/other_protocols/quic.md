@@ -6,7 +6,7 @@ In short
 
 ```
 HTTP/2 = TCP + TLS (multiple handshakes, higher latency)
-HTTP/3 = QUIC (single handshake, low latency)
+HTTP/3 = QUIC (single handshake with TLS + Transport, low latency)
 ```
 
 ![Image](https://sec-consult.com/fileadmin/_processed_/7/4/csm_sec-consult-c-protocol_stacks_branded_718db6c550.webp)
