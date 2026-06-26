@@ -9,4 +9,4 @@
 - [IP](./docs/ip/ip.md)
 - [UDP](./docs/udp/udp.md)
 - [TCP](./docs/tcp/tcp.md)
-- [Other Protocols](./docs/other_protocols/others.md)
+- [Protocols](./docs/other_protocols/others.md)
