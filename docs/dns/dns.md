@@ -30,3 +30,7 @@ These servers are nicely partitioned. So it becomes easy to search
 ## DNS Packet Anatomy
 
 ![Image](../../images/dns_packet.png)
+
+<br/>
+
+[READ MORE ABOUT DNS](./extra.md)
